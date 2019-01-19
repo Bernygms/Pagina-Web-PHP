@@ -1,0 +1,129 @@
+    /* Hoja de estilo */
+     
+    /* ESTRUCTURA BASICA 
+    -------------------------------------------*/
+    html,body {font-size: 1em;}
+     
+    body {
+        color: #333;
+        background-color: #fff;
+        height:100%;
+        width: 95%; 
+        text-align: left;
+        min-width:850px;
+        margin: 2em auto;
+        padding: 0;
+    }
+     
+    #footer {
+        color: #666;
+        background:#eee;
+        border: 1px solid #e5e5e5;
+        border-width: 0 2px 2px 0;
+        text-align:center;
+        padding-top:5px;
+        font-family:Arial;
+        font-weight:bold;
+        margin-top:15px;
+    }
+     
+    a {text-decoration:none; color:#333;}
+    a:hover {color:#2BBA82;}
+     
+    /* ESTILO TEXTO
+    ------------------------------------------- */
+    .titulo{
+        color:#333;
+        font-size: 1.30em;
+        font-weight:normal;
+        text-align:justify;
+        line-height:20px;
+        padding:0px 5px 5px 20px;
+        margin:0.5em 0 1em;
+    }
+     
+    .asunto{
+        color:#60B6EF;
+        font-weight:bold;
+        font-size:1.2em;
+    }
+     
+    .estadisticas{
+        color:#333;
+        font-size: 1em;
+        font-weight:normal;
+        text-align:justify;
+        line-height:20px;
+        padding:0px 5px 5px 20px;
+        font-family:Arial;
+    }
+     
+    /* TABLAS ESTILO
+    ------------------------------------------- */
+    table,td
+    {
+        border:1px solid #CCC;
+        border-collapse:collapse;
+        font:small/1.4 Verdana, "Tahoma", "Bitstream Vera Sans", Helvetica, sans-serif;
+    }
+    table
+    {
+        border:none;
+        border:1px solid #CCC;
+        width:100%;
+    }
+    thead th,
+    tbody th
+    {
+     
+      background:#fafafb;
+      color:#666;  
+      padding:5px 10px;
+      border-left:1px solid #CCC;
+      font-weight:bold;
+      text-align:center;
+      font-size:11px;
+      vertical-align:middle;
+    }
+    tbody th
+    {
+      background:#fafafb;
+      border-top:1px solid #CCC;
+      text-align:left;
+      font-weight:normal;
+      
+    }
+    tbody tr td
+    {
+      padding:5px 10px;
+      color:#666;
+      cursor:pointer;
+      font-size:11px;
+      text-align:center;
+      vertical-align: middle;
+    }
+    tbody tr:hover {background:#F0F7FC;}
+    tbody tr:hover td {background:#F0F7FC;}
+     
+    tfoot td,
+    tfoot th
+    {
+      border-left:none;
+      border-top:1px solid #CCC;
+      padding:4px;
+      background:#FFF url(../imagenes/tablas/foot_bck.gif) repeat;
+      color:#666;
+    }
+    caption
+    {
+        text-align:left;
+        font-size:100%;
+        padding:30px 0 10px 0px;
+        color:#666;
+        font-weight:bold;
+        width:500px;
+    }
+    table a:link {text-decoration:none; color:#60B6EF;}
+    table a:visited {color:#333;}
+    table a:hover {color:#2BBA82;text-decoration:none;}
+    table a:active {color:#60B6EF;}
