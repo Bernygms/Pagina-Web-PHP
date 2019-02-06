@@ -22,13 +22,16 @@ if (isset($_POST["submit"])) {
 			foreach ($result as $usuarios){
 				# code...
 				if ($usuarios['pasword_old'] == '') {
-					header ("Location: https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/login-reset.php?username=".$username);	
+					//header ("Location: https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/login-reset.php?username=".$username);
+					header ("Location: login-reset.php?username=".$username);	
+					//echo '<SCRIPT LANGUAGE="javascript">location.href = "login-reset.php?username="'.$username.'</SCRIPT>';
 				}else{
 					if ($usuarios['user'] ==  $username && $usuarios['password'] == $password) {
 						# Respuesta
 						session_start();
 	                    $_SESSION['user'] = $usuarios['nombre'] .' '. $usuarios['apellido']; 
-	                    header ("Location: https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/logeado.php");					
+	                    //header ("Location: https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/logeado.php");
+	                    echo '<SCRIPT LANGUAGE="javascript">location.href = "logeado.php";</SCRIPT>';					
 					}
 				}
 			}

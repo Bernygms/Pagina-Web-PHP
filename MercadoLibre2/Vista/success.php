@@ -14,7 +14,7 @@
 				<h1>Carga de datos exitosa.</h1>
 				<P>Los datos ya fueron enviadas.</P>
 				<p><a href="https://www.google.com/intl/es/gmail/about/"> Iniciar sesión en Gmail</a></p>
-				<p><a href="https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/login.php"> Iniciar sesión, Mercado Libre</a></p>
+				<p><a href="login.php"> Iniciar sesión, Mercado Libre</a></p>
 				
 			</div>
 		</div>

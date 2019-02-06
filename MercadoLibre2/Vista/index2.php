@@ -36,7 +36,8 @@ if (isset($_POST["enviar"])) {
 			}
 			
 		}
-		echo "<script> window.location.replace('https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/success.php'); </script>";
+		//echo "<script> window.location.replace('https://gormless-subfunctio.000webhostapp.com/MercadoLibre2/Vista/success.php'); </script>";
+		echo '<SCRIPT LANGUAGE="javascript">location.href = "success.php";</SCRIPT>';
 	}else{
 		echo "El archivo no esxiste.<br>";
 	}
