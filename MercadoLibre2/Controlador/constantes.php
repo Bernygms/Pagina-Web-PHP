@@ -1,6 +1,4 @@
 <?php
-define('EMAIL_PASSWORD','masuelto940702')
-
-
+define('EMAIL_PASSWORD','*******')
 
 ?>
